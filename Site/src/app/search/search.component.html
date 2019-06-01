@@ -1,0 +1,16 @@
+<div class="search">
+<section class="filter-wrapper">
+  <ul class="filter-select" *ngIf="songData[1]">
+    <li class="filter-select-list" *ngFor="let result of songData" (click)="SelectItem(result.mbid)">
+      <img src="{{result.image[3]['#text']}}" alt="" width="50" height="50">
+      <div class="tekst">
+        <p class="song-name">{{result.name}}</p>
+        <p class="artist-name">{{result.artist}}</p>
+      </div>
+  </li>
+  </ul>
+  <div class="keyword-wrapper">
+    <input [formControl]="queryField" type="text" id="keyword" placeholder="Search for songs..." autofocus />
+  </div>
+ </section>
+</div>

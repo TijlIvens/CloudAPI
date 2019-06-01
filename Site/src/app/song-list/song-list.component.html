@@ -1,0 +1,12 @@
+<div class="songs">
+<ul class="song-list">
+  <li class="song-list-item" *ngFor="let song of DataSongs" >
+      <img src="{{song.album.image[3]['#text']}}" alt="" width="50" height="50">
+      <div class="tekst">
+        <p class="song-name">{{song.name}}</p>
+        <p class="artist-name">{{song.artist.name}}</p>
+      </div>
+      <hr>
+  </li>
+</ul>
+</div>
