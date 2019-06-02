@@ -20,7 +20,32 @@ namespace WebAPI.Controllers
         [HttpGet]
         public List<SongRequest> GetSongs()
         {
-            return context.songRequest.ToList();
+            IQueryable<SongRequest> query = context.songRequest;
+            query = query.OrderBy(d => d.ListPlace);
+            return query.ToList();
+        }
+
+        /*[Route("/pages")]
+        [HttpGet]
+        public ActionResult<SongRequest> GetSongPage(int? page, int length = 2)
+        {
+            IQueryable<SongRequest> query = context.songRequest;
+            if (page.HasValue)
+                query = query.Skip(page.Value * length);
+            query = query.Take(length);
+
+            return query.ToList();
+        }*/
+
+        [Route("{id}")]
+        [HttpGet]
+        public ActionResult<SongRequest> GetSong(int id)
+        {
+            var theSong = context.songRequest.Find(id);
+            if (theSong == null)
+                return NotFound();
+
+            return theSong;
         }
 
         [HttpPost]

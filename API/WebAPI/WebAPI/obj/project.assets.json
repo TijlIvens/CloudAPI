@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OneDrive AP\\OneDrive - Artesis Plantijn Hogeschool Antwerpen\\CloudAPI\\Project\\API\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "D:\\CloudAPI\\CloudAPI\\API\\WebAPI\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\OneDrive AP\\OneDrive - Artesis Plantijn Hogeschool Antwerpen\\CloudAPI\\Project\\API\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectPath": "D:\\CloudAPI\\CloudAPI\\API\\WebAPI\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\tijli\\.nuget\\packages\\",
-      "outputPath": "D:\\OneDrive AP\\OneDrive - Artesis Plantijn Hogeschool Antwerpen\\CloudAPI\\Project\\API\\WebAPI\\WebAPI\\obj\\",
+      "outputPath": "D:\\CloudAPI\\CloudAPI\\API\\WebAPI\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

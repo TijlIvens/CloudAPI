@@ -20,7 +20,6 @@ export class SearchComponent implements OnInit {
   }
 
   SelectItem(id:string){
-    console.log(id);
     var songRequest: ISongRequest = {songId: id};
     this.svc.PostSong(songRequest).subscribe();
     this.songData = [];

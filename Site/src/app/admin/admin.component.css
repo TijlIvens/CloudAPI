@@ -1,0 +1,52 @@
+.songs{
+    min-height: 100%;
+    flex-flow: column wrap;;
+    position: relative
+}
+.song-list{
+    width: 95%;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: rgb(105, 105, 105);
+    border: 1px solid #ccc;
+    margin: auto;
+    background: #fff;
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+
+.song-list-item img{
+    margin-right: 30px;
+    min-width: 50px;
+}
+.tekst {
+    display: inline-block;
+    margin: auto;
+}
+.artist-name {
+    margin: 0;
+    font-size: 0.8em;
+    color: #aaa;
+}
+.song-name {
+    margin: 0;
+}
+
+.admin{
+    margin: auto;
+    width: 800px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .admin{
+        width: 100%;
+    }
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 3%;
+}

@@ -1,3 +1,15 @@
-<p>
-  header works!
-</p>
+<div class="header">
+  <div class="headerblock">
+    <div class="title">
+      <h1>Ask the DJ</h1>
+    </div>
+    <div class="navigation">
+          <div [routerLinkActive]="['active']">
+            <a class="ripple" [routerLink]="['/admin']" (click)="name = 'content'">Admin</a>
+          </div>
+          <div [routerLinkActive]="['active']">
+            <a class="ripple" [routerLink]="['/home']" (click)="name = 'content'">Home</a>
+          </div>
+    </div>
+  </div>
+</div>

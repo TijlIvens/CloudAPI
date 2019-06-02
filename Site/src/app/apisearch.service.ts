@@ -16,7 +16,8 @@ export class ApisearchService {
       .set('method', 'track.search')
       .set('api_key', this.APIkey)
       .set('format', 'json')
-      .set('track',search);
+      .set('track',search)
+      .set('page', '1');
     return this.http.get<RootObject>(`${this.baseUrl}` , {params: params} )
   }
 
@@ -37,7 +38,9 @@ export class ApisearchService {
     return this.http.get<IRequestedSongs[]>("https://localhost:44396/api/songs")
   }
 
-
+  RemoveSong(id:number) {
+    return this.http.delete<IRequestedSongs>(`https://localhost:44396/api/songs/${id}`)
+  }
 }
 
 export interface IRequestedSongs {

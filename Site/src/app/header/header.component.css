@@ -1,0 +1,54 @@
+.header {
+    background-color: navy;
+    color: gold;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    height: 52px;
+}
+
+.headerblock {
+    width: 800px;
+    margin: auto;
+}
+
+.title {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0%;
+}
+
+.ripple {
+    background-position: center;
+    transition: background 0.3s;
+  }
+  .ripple:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
+  .ripple:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+.navigation a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100px;
+    color: gold;
+}
+.navigation {
+
+   overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+    .headerblock {
+        width: 100%;
+    }
+}
