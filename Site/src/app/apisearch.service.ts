@@ -31,15 +31,15 @@ export class ApisearchService {
   }
 
   PostSong(song: ISongRequest){
-    return this.http.post<ISongRequest>("https://localhost:44396/api/songs", song)
+    return this.http.post<ISongRequest>("https://cloudapi-243415.appspot.com/api/songs", song)
   }
 
   GetRequestedSongs() {
-    return this.http.get<IRequestedSongs[]>("https://localhost:44396/api/songs")
+    return this.http.get<IRequestedSongs[]>("https://cloudapi-243415.appspot.com/api/songs")
   }
 
   RemoveSong(id:number) {
-    return this.http.delete<IRequestedSongs>(`https://localhost:44396/api/songs/${id}`)
+    return this.http.delete<IRequestedSongs>(`https://cloudapi-243415.appspot.com/api/songs/${id}`)
   }
 }
 

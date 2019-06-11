@@ -28,7 +28,7 @@ namespace WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DatabaseContext>(
-               options => options.UseSqlServer(
+               options => options.UseMySQL(
                    Configuration.GetConnectionString("DefaultConnection")
                )
            );

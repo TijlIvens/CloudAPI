@@ -10,8 +10,10 @@ namespace WebAPI.Model
         public static void Initialize(DatabaseContext context)
         {
             context.Database.EnsureCreated();
-
-            if (!context.songRequest.Any())
+            IQueryable<SongRequest> query = context.songRequest;
+            SongRequest[] database = query.ToArray();
+            //if (!context.songRequest.Any())
+            if (database.Length == 0)
             {
                 var song1 = new SongRequest()
                 {

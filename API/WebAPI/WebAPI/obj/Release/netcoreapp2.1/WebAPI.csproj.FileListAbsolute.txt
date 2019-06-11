@@ -1,0 +1,14 @@
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\bin\Release\netcoreapp2.1\WebAPI.deps.json
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\bin\Release\netcoreapp2.1\WebAPI.runtimeconfig.json
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\bin\Release\netcoreapp2.1\WebAPI.runtimeconfig.dev.json
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\bin\Release\netcoreapp2.1\WebAPI.dll
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\bin\Release\netcoreapp2.1\WebAPI.pdb
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.csprojAssemblyReference.cache
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.csproj.CoreCompileInputs.cache
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.RazorAssemblyInfo.cache
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.RazorAssemblyInfo.cs
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.AssemblyInfoInputs.cache
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.AssemblyInfo.cs
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.RazorTargetAssemblyInfo.cache
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.dll
+D:\CloudAPI\CloudAPI\API\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.pdb

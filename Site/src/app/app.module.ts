@@ -16,20 +16,20 @@ import { AdminComponent } from './admin/admin.component';
 import { MainListComponent } from './main-list/main-list.component';
 import { HeaderComponent } from './header/header.component';
 
-import { SocialLoginModule, AuthServiceConfig } from "angularx-social-login";
-import { GoogleLoginProvider } from "angularx-social-login";
+//import { SocialLoginModule, AuthServiceConfig } from "angularx-social-login";
+//import { GoogleLoginProvider } from "angularx-social-login";
 import { LoginComponent } from './login/login.component';
 
-let config = new AuthServiceConfig([
-  {
-    id: GoogleLoginProvider.PROVIDER_ID,
-    provider: new GoogleLoginProvider("704481721683-d5pnn60fdgc3memf2ocu21540bjs3ivl.apps.googleusercontent.com")
-  }
-]);
+// let config = new AuthServiceConfig([
+//   {
+//     id: GoogleLoginProvider.PROVIDER_ID,
+//     provider: new GoogleLoginProvider("704481721683-d5pnn60fdgc3memf2ocu21540bjs3ivl.apps.googleusercontent.com")
+//   }
+// ]);
 
-export function provideConfig() {
-  return config;
-}
+// export function provideConfig() {
+//   return config;
+// }
 
 @NgModule({
   declarations: [
@@ -51,18 +51,18 @@ export function provideConfig() {
     RouterModule.forRoot([
       { path: "home", component: MainListComponent},
       { path: "admin", component: AdminComponent},
-      { path: "login", component: LoginComponent},
+      //{ path: "login", component: LoginComponent},
       { path: "", redirectTo: "home", pathMatch: "full"},
       { path: "**", component: MainListComponent}
     ]),
-    ButtonModule,
-    SocialLoginModule
+    ButtonModule//,
+    //SocialLoginModule
   ],
   providers: [
-    {
-      provide: AuthServiceConfig,
-      useFactory: provideConfig
-    }
+    // {
+    //   provide: AuthServiceConfig,
+    //   useFactory: provideConfig
+    // }
   ],
   bootstrap: [AppComponent]
 })
